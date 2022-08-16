@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+*{
+    margin: 0;
+    border:0;
+    max-width:1920px;
+    font-family:'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* header */
+header{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.containe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lst-con{
+    margin-left: 30px;
+    padding: 12px 31px;
+    background-color: #10155e;
+}
+
+.lst-con a{
+    color: white;
+    font-size: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-bar{
+    margin: auto 0px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 670px;
+    margin-left: 400px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    font-family: 'Passion One', cursive;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #10155e
+}
+
+
+
+/* main part */
+.main_image{
+    width: 100%;
+}
+.main_image_description{
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    color:rgb(110, 107, 107);
+
+}
+
+.discover_more_div{
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.discover_more_button{
+    color:white;
+    background-color:rgb(19, 19, 90);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    border:none;
+    width: 200px;
+    height: 60px;
+}
+
+.discover_more_button:hover{
+    color:white;
+    background-color:rgb(64, 168, 228);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: bolder;
+    border-radius:0;
+    border-width:1px;
+    border-style:solid;
+    border-color: rgb(0, 0, 0) ;
+    width: 200px;
+    height: 60px;
+    padding:1px 2px;
+    
+}
+
+
+
+
+
+.comfort_clothes_care_div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+
+
+}
+
+.comfort{
+    color:rgb(19, 19, 90);
+    padding-top: 20px;
+    margin-left: 50px;
+    font-family: 'Passion One', cursive;
+    font-size: 3em;
+    letter-spacing: 0px;
+    font-style: italic;
+
+}
+
+.comfortphoto_div{
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.viewproduct__button_div{
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+
+
+}
+
+
+
+.button1{
+    width: 200px;
+    height:60px;
+    margin-left:465px;
+    color:grey;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    border:solid black;
+
+}
+
+.button2{
+    width: 200px;
+    height:60px;
+
+    color:grey;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    border:solid black;
+}
+
+.button3{
+    width: 200px;
+    height:60px;
+    margin-right:460px;
+    color:grey;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    border:solid black;
+}
+
+
+.view_all_product_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height:60px;
+    padding-top: 50px;
+    margin-left: 6px;
+    margin-bottom: 40px;
+}
+
+.button_view_all_products{
+    color:white;
+    background-color:rgb(1, 1, 32);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size:large;
+    border:none;
+    width: 225px;
+    height: 50px;
+    
+
+}
+
+
+.button_view_all_products:hover{
+    color:white;
+    background-color:rgb(47, 151, 236);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size:large;
+    border:solid;
+    width: 225px;
+    height: 50px; 
+
+}
+
+
+
+.article_text_div{
+    background-color: rgb(255, 255, 255);
+    color:rgb(26, 3, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 4em;
+    width: 1920px;
+    height: 100px;
+
+ 
+}
+
+.article_p{
+    font-family: 'Passion One', cursive;
+    letter-spacing:2px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+
+.articles_carry_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height: 700px;
+}
+
+
+
+.articles_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 100%;
+}
+
+.article_one{
+    display:block;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 70%;
+}
+
+.image_article_one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    width: 100%;
+    
+}
+
+
+#join_the_community{
+    
+}
+
+.image_article_title_one{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: large;
+    color:rgb(18, 0, 66);
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    width: 50%;
+    margin-left: 15%;
+}
+
+
+
+.article_description{
+    font-family: arial;
+    font-size: small;
+    background-color:rgb(255, 255, 255);
+    margin-left:15%;
+    width: 50%;
+    height: 80px;
+    color:gray;
+    padding:0;
+    padding-top: 5%;
+}
+
+
+#article_description{
+    color:rgb(255, 255, 255);
+    font-size:xx-small;
+    font-family: arial;
+}
+
+
+
+#learn_more_button_id{
+    color:rgb(255, 255, 255);
+    background-color:rgb(19, 19, 90);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size:small;
+    border:none;
+    width: 200px;
+    height: 60px;
+    margin-left:15%;
+    font-weight:bolder;
+    
+    
+}
+
+#learn_more_button_id:hover{
+    color:white;
+    background-color:rgb(64, 168, 228);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: xx-small;
+    border-radius:0;
+    border-width:1px;
+    border-style:solid;
+    border-color: rgb(0, 0, 0) ;
+    width: 200px;
+    height: 60px;
+    margin-left:15%;
+    
+}
+
+.cleanipedia_div{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.description_under_cleanipedia_div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    width: 1920px;
+    height:150px;
+}
+
+.cleanipedia_description{
+    background-color:rgb(230, 238, 238);
+    width:700px;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+}
+
+
+.back_to_top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:1920px;
+    height: 90px;;
+    background-color: rgb(75, 188, 223);
+}
+ 
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10155E;
+    height: 750px;
+    width: 1920px;
+}
+
+.footer_midpart{
+    display: block;
+    background-color: #10155E;
+    width: 60%;
+    height: 350px;
+    
+
+}
+
+.join_div{
+    background-color: #10155E;
+    width: 30%;
+    height: 30%;
+
+}
+
+.contact_div{
+    display: inline-block;
+    color: white;
+    background-color: #10155E;
+    width: 27%;
+    height: 30%;
+    vertical-align:middle;
+    
+
+}
+
+.cookie_div{
+    display: inline-block;
+    background-color: #10155E;
+    width: 27%;
+    height: 30%;
+    vertical-align:middle;
+    color: white;
+
+}
+
+.arabia_div{
+    display: inline-block;
+    background-color: #10155E;
+    width: 24%;
+    height: 30%;
+    vertical-align:middle;
+    color: white;
+
+}
+
+.comfort_logo_div{
+    display: inline-block;
+    background-color: #10155E;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+
+}
+
+.comfort_footer_image{
+    width: 150px;
+    height: 150px;
+    border-radius:75px;
+}
+
+.comfort_footer_logo{
+    display: inline-block;
+    background-color: rgb#10155E;
+    width:15px;
+    height:15px;
+}
+
+.lastpart{
+    background-color: #10155E;
+    width: 100%;
+    height: 100px;
+}
+
+.fa-brands{
+
+    padding-right: 20px;
+    padding-left: 9px;
+}
+
+.join_div{
+    padding-top: 20px;
+    color:rgb(255, 255, 255);
+    font-family: arial;
+}

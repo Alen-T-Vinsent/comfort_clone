@@ -1,0 +1,351 @@
+.top_div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 1920px;
+    height: 100px;
+}
+
+
+.first_Div-top_div{
+    display:inline-block;
+    background-color:rgb(0, 0, 0);
+    width:200px;
+    height:35px;
+    margin-top :px;
+    margin-right: 2px;
+    margin-left:2px;
+    
+
+}
+
+
+/* hamburger icon top div */
+.fa-solid{
+    size: 300px;
+    color:rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-top: 8px;
+}
+
+
+
+/* text games */
+.games_text-top_div{
+    display:inline;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(255, 255, 255);
+    margin-left:2px;
+    font-size:13px;
+    letter-spacing:-1;
+    
+}
+
+.rockstar_icon{
+    display:inline-block;
+    margin-left:45%;
+    width: 35px;
+    height: 35px;
+    
+}
+
+
+.login_icon{
+    display:inline-block;
+    margin-left:80%;
+    width: 35px;
+    height: 35px;
+    
+}
+
+
+
+.second_Div-top_div{
+    background-color:rgb(0, 0, 0);
+
+    width:33%;
+    height:35px;
+    margin-top:2px;
+    margin-right: 2px;
+    margin-left:500px;
+}
+
+
+.third_Div-top_div{
+    display:inline;
+    background-color:rgb(0, 0, 0);
+    width:33%;
+    height:35px;
+    margin-top :2px;
+    margin-right: 2px;
+    margin-left:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second div  to add maxpayne description */
+.image_description{
+    display:block;
+    margin-top:7;
+    background-color:rgb(0, 0, 0);
+    width:36%;
+    height:1222;
+}
+
+.maxpyne_text{
+    display:inline-block;
+    font-family:Arial;
+    font-size:9;
+    transform: scale(2,2);
+    letter-spacing:0px;
+    color:rgb(255, 255, 255);
+    
+    
+    margin-top:50;
+    margin-left:60;
+    
+}
+
+
+
+.buynow_button{
+    display:inline-block;
+    border:1 px;
+    border-color:white;
+    border-radius:4px;
+    border-style:solid;
+    color:white;
+    padding:13px 30px;
+    font-weight:bold;
+
+    background-color: rgb(0, 0, 0);
+    margin-left:35;
+    margin-top:17;
+}
+
+
+.maxpayne_image{
+    display:inline-block;
+    width: 250px;
+    height:300px;
+    margin-top:40px;
+    margin-left:30px;
+
+}
+
+.game_description{
+    float:right;
+    display:block;
+    letter-spacing:1px;
+    font-family: arial narrow;
+    color:white;
+    text-align: left;
+    margin-top:53;
+    background-color:#0B0B0B;
+    width:500;
+    height: 200px;
+
+}
+
+
+.screen-description{
+    float:right;
+    display:block;
+    margin-top:400px;
+    margin-right:60px;
+
+    
+    
+    
+
+}
+
+.four_screen{
+    display:block;
+    width:500;
+
+}
+
+
+#readme{
+    font-family:arial;
+    font-size:13;
+}
+
+#readme:hover{
+    cursor:pointer;
+    text-decoration:darkgoldenrod;
+    
+}
+
+
+.specification{
+    margin-left:200px;
+    margin-top:200px;
+    margin-left:400px;
+}
+
+
+
+.footer{
+    background-color:#000000;
+    width:100%;
+    height:350;
+    
+}
+
+.footer_contact_career_subscribe{
+    display:inline-block;
+    background-color:#000000;
+    font-family:arial;
+    color:white;
+    width:280;
+    height:60;
+    margin-left:50;
+    margin-top:30;
+    
+}
+
+.contact{
+    display:inline-block;
+    
+    width:32%;
+
+}
+
+.contact:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+}
+
+
+.career{
+    display:inline-block;
+    width:32%;
+    
+}
+
+
+
+.career:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+}
+
+.subscribe{
+    display:inline-block;
+    width:32%;
+    
+}
+
+
+
+.subscribe:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+    
+}
+
+
+.social_media{
+
+    background-color:rgb(0, 0, 0);
+    width:300;
+    height:50;
+    margin-top:100;
+    margin-left:600;
+
+}
+
+
+.twitch{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.twitch:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+.instagram{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+}
+.instagram:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+.twitter{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.twitter:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+.youtube{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.youtube:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+.facebook{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.facebook:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+.footer_bottom{
+    float:bottom;
+    width:100%;
+    height:100;
+}   
+    

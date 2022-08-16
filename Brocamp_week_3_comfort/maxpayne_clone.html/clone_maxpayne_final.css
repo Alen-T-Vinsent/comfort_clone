@@ -1,0 +1,289 @@
+*{
+    max-width: 1920px;
+}
+
+header{display:flex;
+    background-color: rgb(0, 0, 0);
+    width: 1885px;
+    height:60px;
+}
+
+.first_part_heading{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    width: 25%;
+    height: 60px;
+    margin-left:100px;
+
+}
+
+.second_part_heading{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    width: 33%;
+    height: 60px;
+
+}
+
+.rockstar_icon{
+    width:50px;
+    height:50px;
+}
+
+.third_part_heading{
+    background-color: rgb(0, 1, 10);
+    width: 33%;
+    height: 60px;
+}
+
+.login_icon{
+    float: right;
+}
+
+
+
+
+main{
+    display: flex;
+
+}
+.left_part_main{
+    background-color: rgb(0, 0, 0);
+    width: 950px;
+    height:1605px;
+}
+
+
+.maxpayne_div{
+background-color: rgb(0, 0, 0);
+width: 200px;
+margin-left: 100px;
+margin-top:50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: large;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+
+}
+
+
+.buynow_button{
+    display:inline-block;
+    border:1 px;
+    border-color:white;
+    border-radius:4px;
+    border-style:solid;
+    color:white;
+    padding:13px 30px;
+    font-weight:bold;
+    width: 200px;
+    height:70px;
+
+    background-color: rgb(0, 0, 0);
+    margin-left:35;
+    margin-top:17;
+}
+
+
+
+.right_part_main{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    height:1605px;
+}
+
+.game_description{
+    color: white;
+    font-family: arial;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#readme{
+    font-family:arial;
+    font-size:13;
+}
+#readme:hover{
+    cursor:pointer;
+    text-decoration:rgb(0, 0, 0);}
+
+.screen_div{
+    margin-left:100px;
+    margin-top:100px;
+    background-color: aqua;
+    width: 1100px;
+    height:755px;
+    }
+
+
+.four_screen{
+    display:block;
+    width:1100px;
+    
+    }   
+
+
+.spec{
+    display:flex;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+    width:1000;
+    height:500px
+}   
+
+.specification{
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 600px;
+}
+
+
+footer{
+    display: flex;
+    background-color: blueviolet;
+    width:1920px;
+    height: 450px;
+}
+
+
+.contact_career_subscribe_english_div{
+    display:block;
+    background-color: rgb(23, 159, 201);
+    height:200px;
+    width: 1920px;
+}
+
+
+.contact_careers_subscribe_div{
+    margin-left: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: brown;
+    width:600px;
+    height:80px;
+}
+
+.english_div{
+    background-color: rgb(63, 165, 42);
+
+    width:600px;
+    height:80px;
+    
+}
+
+
+
+
+
+
+.contact{
+    display:inline-block;
+    
+    width:32%;
+
+}
+
+.contact:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+}
+
+
+.career{
+    display:inline-block;
+    width:32%;
+    
+}
+
+
+
+.career:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+}
+
+.subscribe{
+    display:inline-block;
+    width:32%;
+    
+}
+
+
+
+.subscribe:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);
+    
+}
+
+
+.social_media{
+
+    background-color:rgb(0, 0, 0);
+    width:300;
+    height:50;
+    margin-top:100;
+    margin-left:600;
+
+}
+
+
+.twitch{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.twitch:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+.instagram{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+}
+.instagram:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+.twitter{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.twitter:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+.youtube{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.youtube:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+.facebook{
+    display:inline-flex;
+    color:white;
+    padding:20px;
+
+}
+.facebook:hover{
+    cursor:pointer;
+    color:rgb(223, 223, 0);}
+
+
+
